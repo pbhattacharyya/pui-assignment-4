@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shop page</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- javascript -->
+        <script src="js/main.js" type="text/javascript"></script>
+    </head>
+    <body>
+         <!-- top bar -->
+        <div class="icon-bar">
+            <span class="left">
+                <a class="active" href="index.html"><img class = "top-bar-icon-left" src="img/clickable-logo.png"></a> 
+            </span>
+            <span class="right">
+                <a class="active" href="cart.html"><img class = "top-bar-icon-right" src="img/cart.png"></a> 
+            </span>
+        </div>
+        <div id="cart" class="prompt-text">
+            <span class="inline-text"> 
+                <a href="shop.html"><button class="nav-button">< Back</button></a>
+            </span>
+            <h2 id="cart-intro" class="step step-left">
+                There are no items in your cart. Your total is $0.
+            </h2>
+
+            <!-- to display couch pillows in the cart, if any -->
+            <div id="couch-pillow-cart" class="product-box invisible-on-load">
+                    <img id= "product-image" class="image" src="img/couch-pillow-background.jpg">
+                    <div class = "text-area">
+                        <span id= "product-name" class="box-heading-left">
+                            Couch pillow
+                        </span>
+                        <span id= "total-price" class="box-heading-right">
+                            $29
+                        </span>
+                    </div>
+                    <br>
+                    <div class="cart-div">
+                        Shape: <span id= "product-shape">
+                            Round
+                        </span>
+                    </div>
+                    <div class="cart-div">
+                        Unit price: <span id= "product-unit-price">
+                            $29
+                        </span>
+                    </div>
+                    <div class="cart-div">
+                        Quantity: <span id= "product-quantity">
+                            1
+                        </span>
+                    </div>
+                    <div class="cart-div">
+                        Special requests: <span id= "product-custom">
+                            blah
+                        </span>
+                    </div>
+                    <div>
+                        <span> 
+                                <button id="delete-from-cart" class="remove-button">REMOVE</button>
+                        </span>
+                    </div>
+            </div>
+
+
+            <!-- to display bed pillows in the cart, if any -->
+            <div id="bed-pillow-cart" class="product-box invisible-on-load">
+                <img id= "product-image" class="image" src="img/bed-pillow-background.jpg">
+                <div class = "text-area">
+                    <span id= "product-name" class="box-heading-left">
+                        Bed pillow
+                    </span>
+                    <span id= "total-price" class="box-heading-right">
+                        $39
+                    </span>
+                </div>
+                <br>
+                <div class="cart-div">
+                    Shape: <span id= "product-shape">
+                        Round
+                    </span>
+                </div>
+                <div class="cart-div">
+                    Unit price: <span id= "product-unit-price">
+                        $39
+                    </span>
+                </div>
+                <div class="cart-div">
+                    Quantity: <span id= "product-quantity">
+                        1
+                    </span>
+                </div>
+                <div class="cart-div">
+                    Special requests: <span id= "product-custom">
+                        blah
+                    </span>
+                </div>
+                <div>
+                    <span> 
+                            <button id="delete-from-cart" class="remove-button">REMOVE</button>
+                    </span>
+                </div>
+            </div>
+
+                <!-- to display floor pillows in the cart, if any -->
+            <div id="floor-pillow-cart" class="product-box invisible-on-load">
+                <img id= "product-image" class="image" src="img/floor-pillow-background.jpg">
+                <div class = "text-area">
+                    <span id= "product-name" class="box-heading-left">
+                        Floor pillow
+                    </span>
+                    <span id= "total-price" class="box-heading-right">
+                        $49
+                    </span>
+                </div>
+                <br>
+                <div class="cart-div">
+                    Shape: <span id= "product-shape">
+                        Round
+                    </span>
+                </div>
+                <div class="cart-div">
+                    Unit price: <span id= "product-unit-price">
+                        $49
+                    </span>
+                </div>
+                <div class="cart-div">
+                    Quantity: <span id= "product-quantity">
+                        1
+                    </span>
+                </div>
+                <div class="cart-div">
+                    Special requests: <span id= "product-custom">
+                        blah
+                    </span>
+                </div>
+                <div>
+                    <span> 
+                            <button id="delete-from-cart" class="remove-button">REMOVE</button>
+                    </span>
+                </div>
+            </div>
+
+            <a><button class="button button-shop top-button" disabled>CHECKOUT</button></a>
+            <div class="bottom-quote"> 
+                <h2>Sleep tight. Live well.</h2>
+            </div>
+        </div>
+    </body>
+</html>

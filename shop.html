@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shop page</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+            <!-- jquery -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <!-- javascript -->
+        <script src="js/main.js" type="text/javascript"></script>
+
+    </head>
+    <body>
+        <!-- top bar -->
+        <div class="icon-bar">
+            <span class="left">
+                <a class="active" href="index.html"><img class = "top-bar-icon-left" src="img/clickable-logo.png"></a> 
+            </span>
+            <span class="right">
+                <a class="active" href="cart.html"><img class = "top-bar-icon-right" src="img/cart.png"></a> 
+            </span>
+        </div>
+        <div class="prompt-text">
+            <!-- to display couch pillows on offer -->
+            <div id="couch-pillow-box" class="floating-box">
+                <div class = "top-panel">
+                    <span class="box-heading-left">
+                        Couch pillow
+                    </span>
+                    <span class="box-heading-right">
+                        $29
+                    </span>
+                </div>
+                <img class="backgroundimage" src="img/couch-pillow-background.jpg" border="0" alt="">
+                <div class="text-box">
+                    Shape:<br>
+                    <ul id="shape" class="shape-choice">
+                        <li>
+                            <input type="radio" id="square1" value="square" name="couch-pillow-shape" checked="checked" />
+                            <label for="square1">square</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="round1" value="round" name="couch-pillow-shape" />
+                            <label for="round1">round</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="cat1" value="cat" name="couch-pillow-shape"/>
+                            <label for="cat1">cat</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="dog1" value="dog" name="couch-pillow-shape" />
+                            <label for="dog1">dog</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="bear1" value="bear" name="couch-pillow-shape" />
+                            <label for="bear1">bear</label>
+                        </li>
+                        <li>
+                                <input type="radio" id="bunny1" value="bunny" name="couch-pillow-shape" />
+                                <label for="bunny1">bunny</label>
+                        </li>
+                        <li>
+                                    <input type="radio" id="custom1" value="custom" name="couch-pillow-shape" />
+                                    <label for="custom1">custom</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="forms">
+                    <form class="text-box">
+                        Quantity:
+                        <select id="quantity" name="couch-qty">
+                            <option name="couch-qty" value="1" checked="checked">1</option>
+                            <option name="couch-qty" value="2">2</option>
+                            <option name="couch-qty" value="3">3</option>
+                            <option name="couch-qty" value="4">4</option>
+                            <option name="couch-qty" value="5">5</option>
+                            <option name="couch-qty" value="6">6</option>
+                            <option name="couch-qty" value="7">7</option>
+                            <option name="couch-qty" value="8">8</option>
+                            <option name="couch-qty" value="9">9</option>
+                            <option name="couch-qty" value="10">10</option>
+                            <option name="couch-qty" value="11">11</option>
+                            <option name="couch-qty" value="12">12</option>
+                            <option name="couch-qty" value="13">13</option>
+                            <option name="couch-qty" value="14">14</option>
+                            <option name="couch-qty" value="15">15</option>
+                            <option name="couch-qty" value="16">16</option>
+                            <option name="couch-qty" value="17">17</option>
+                            <option name="couch-qty" value="18">18</option>
+                            <option name="couch-qty" value="19">19</option>
+                            <option name="couch-qty" value="20">20</option>
+                            </select>
+                            <!--  -->
+                    </form>
+                    <form class="text-box">
+                        Special requests: <br>
+                            <textarea id="custom" class="textarea-top" name="message" rows="3" cols="40" maxlength="100">none</textarea> <!--   -->
+                    </form>
+                </div>
+                <button id="add-to-cart" class="button button-shop item-button">ADD TO CART</button>
+            </div>
+
+            <!-- to display bed pillows on offer -->
+            <div id="bed-pillow-box" class="floating-box">
+                        <div class = "top-panel">
+                            <span class="box-heading-left">
+                                Bed pillow
+                            </span>
+                            <span class="box-heading-right">
+                                $39
+                            </span>
+                        </div>
+                        <img class="backgroundimage" src="img/bed-pillow-background.jpg" border="0" alt="">
+                        <div class="text-box">
+                            Shape:<br>
+                            <ul id="shape" class="shape-choice">
+                                <li>
+                                    <input type="radio" id="square2" value="square" name="bed-pillow-shape" checked="checked" />
+                                    <label for="square2">square</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="round2" value="round" name="bed-pillow-shape" />
+                                    <label for="round2">round</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="cat2" value="cat" name="bed-pillow-shape"/>
+                                    <label for="cat2">cat</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="dog2" value="dog" name="bed-pillow-shape" />
+                                    <label for="dog2">dog</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="bear2" value="bear" name="bed-pillow-shape" />
+                                    <label for="bear2">bear</label>
+                                </li>
+                                <li>
+                                        <input type="radio" id="bunny" value="bunny" name="bed-pillow-shape" />
+                                        <label for="bunny">bunny</label>
+                                </li>
+                                <li>
+                                            <input type="radio" id="custom2" value="custom" name="bed-pillow-shape" />
+                                            <label for="custom2">custom</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="forms">
+                            <form class="text-box">
+                                Quantity:
+                                <select id="quantity" name="bed-qty">
+                                    <option name="bed-qty" value="1" checked="checked">1</option>
+                                    <option name="bed-qty" value="2">2</option>
+                                    <option name="bed-qty" value="3">3</option>
+                                    <option name="bed-qty" value="4">4</option>
+                                    <option name="bed-qty" value="5">5</option>
+                                    <option name="bed-qty" value="6">6</option>
+                                    <option name="bed-qty" value="7">7</option>
+                                    <option name="bed-qty" value="8">8</option>
+                                    <option name="bed-qty" value="9">9</option>
+                                    <option name="bed-qty" value="10">10</option>
+                                    <option name="bed-qty" value="11">11</option>
+                                    <option name="bed-qty" value="12">12</option>
+                                    <option name="bed-qty" value="13">13</option>
+                                    <option name="bed-qty" value="14">14</option>
+                                    <option name="bed-qty" value="15">15</option>
+                                    <option name="bed-qty" value="16">16</option>
+                                    <option name="bed-qty" value="17">17</option>
+                                    <option name="bed-qty" value="18">18</option>
+                                    <option name="bed-qty" value="19">19</option>
+                                    <option name="bed-qty" value="20">20</option>
+                                    </select>
+                                    <!--  -->
+                            </form>
+                            <form class="text-box">
+                                Special requests: <br>
+                                    <textarea id="custom" class="textarea-top" name="message" rows="3" cols="40" maxlength="100">none</textarea> <!--   -->
+                            </form>
+                        </div>
+                        <button id="add-to-cart" class="button button-shop item-button">ADD TO CART</button>
+            </div>
+
+            <!-- to display floor pouf pillows on offer -->
+            <div id="floor-pillow-box" class="floating-box">
+                        <div class = "top-panel">
+                            <span class="box-heading-left">
+                                Floor pouf pillow
+                            </span>
+                            <span class="box-heading-right">
+                                $49
+                            </span>
+                        </div>
+                        <img class="backgroundimage" src="img/floor-pillow-background.jpg" border="0" alt="">
+                        <div class="text-box">
+                            Shape:<br>
+                            <ul id="shape" class="shape-choice">
+                                <li>
+                                    <input type="radio" id="square3" value="square" name="floor-pillow-shape" checked="checked" />
+                                    <label for="square3">square</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="round3" value="round" name="floor-pillow-shape" />
+                                    <label for="round3">round</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="cat3" value="cat" name="floor-pillow-shape"/>
+                                    <label for="cat3">cat</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="dog3" value="dog" name="floor-pillow-shape" />
+                                    <label for="dog3">dog</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="bear3" value="bear" name="floor-pillow-shape" />
+                                    <label for="bear3">bear</label>
+                                </li>
+                                <li>
+                                        <input type="radio" id="bunny3" value="bunny" name="floor-pillow-shape" />
+                                        <label for="bunny3">bunny</label>
+                                </li>
+                                <li>
+                                            <input type="radio" id="custom3" value="custom" name="floor-pillow-shape" />
+                                            <label for="custom3">custom</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="forms">
+                            <form class="text-box">
+                                Quantity:
+                                <select id="quantity" name="floor-qty">
+                                    <option name="floor-qty" value="1" checked="checked">1</option>
+                                    <option name="floor-qty" value="2">2</option>
+                                    <option name="floor-qty" value="3">3</option>
+                                    <option name="floor-qty" value="4">4</option>
+                                    <option name="floor-qty" value="5">5</option>
+                                    <option name="floor-qty" value="6">6</option>
+                                    <option name="floor-qty" value="7">7</option>
+                                    <option name="floor-qty" value="8">8</option>
+                                    <option name="floor-qty" value="9">9</option>
+                                    <option name="floor-qty" value="10">10</option>
+                                    <option name="floor-qty" value="11">11</option>
+                                    <option name="floor-qty" value="12">12</option>
+                                    <option name="floor-qty" value="13">13</option>
+                                    <option name="floor-qty" value="14">14</option>
+                                    <option name="floor-qty" value="15">15</option>
+                                    <option name="floor-qty" value="16">16</option>
+                                    <option name="floor-qty" value="17">17</option>
+                                    <option name="floor-qty" value="18">18</option>
+                                    <option name="floor-qty" value="19">19</option>
+                                    <option name="floor-qty" value="20">20</option>
+                                    </select>
+                                </form>
+                            <form class="text-box">
+                                Special requests: <br>
+                                    <textarea id="custom" name="message" rows="3" cols="40" maxlength="100">none</textarea> <!--   -->
+                            </form>
+                        </div>
+                        <button id="add-to-cart" class="button button-shop item-button">ADD TO CART</button>
+            </div>
+        </div>
+            <a href="cart.html">
+                <button class="button button-shop top-button">GO TO CART</button>
+            </a>
+            <div class="bottom-quote"> 
+                <h2>Sleep tight. Live well.</h2>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,436 @@
+/* HTML element styles */
+
+body {
+    background-color: #D0E9F1;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    color: #4A4A4A;
+    font-size: 20px;
+    text-align:center;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    color: #4A4A4A;
+    font-size: 16px;
+    text-align:left;
+}
+
+textarea {
+    resize: none;
+ }
+
+ /* broad text styles */
+.inline-text {
+    display: inline;
+}
+
+.invisible-on-load {
+    display:none;
+}
+
+.product-detail  {
+    padding-top:20px;
+    padding-right: 30px;
+}
+
+
+/* top bar icons */
+.top-bar-icon-right {
+    width: 40px;
+    padding: 8px;
+  
+}
+.top-bar-icon-left {
+    height: 30px;
+    padding: 8px;
+    background-color: #D0E9F1;
+  
+}
+
+/* cart icon */
+.icon-bar {
+    width: 100%; /* Full-width */
+}
+
+.icon-bar a {
+    float: right; /* Float links side by side */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+}
+
+.icon-bar a:hover {
+    border-radius: 3px;
+    background-color: #A5D4E3; /* Add a hover color */
+}
+
+.icon-bar .active {
+    background-color: #D0E9F1; /* Add an active/current color */
+}
+
+.icon-bar .right {
+    float: right; 
+}
+
+.icon-bar .left {
+    float: left; 
+}
+
+/* main logo */
+.main-logo {
+    max-height: 103px;
+    display: block;
+    margin: auto;
+    padding-top: 150px;
+}
+
+/* pillow icon */
+.pillow-icon {
+    max-height: 100px;
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/* button style */
+.button {
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.remove-button {
+    border: none;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    transition-duration: 0.4s;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background-color:  #D0E9F1;
+    color:  #4A4A4A;
+    display: inline;
+}
+
+.remove-button:hover {
+    border-radius: 3px;
+    background-color: #A5D4E3;
+}
+
+
+.nav-button {
+    border: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background-color:  #D0E9F1;
+    color:  #4A4A4A;
+    display: inline;
+}
+
+.nav-button:hover {
+    border-radius: 3px;
+    background-color: #A5D4E3;
+}
+
+.button .text-button {
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#spacing{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.top-button {
+    margin-top: 50px;
+} 
+
+.button-shop {
+    background: #F4320F;
+    color: #FFFFFF;
+    border-radius: 8px;/* Add transition for hover effects */
+    display:block;
+    margin:auto;
+    margin-top: 150px; 
+}
+
+.button-shop:hover {
+    background-color: #D0021B; /* Add a hover color */
+}
+
+.item-button {
+    margin-top: 250px; 
+    font-size: 22px;
+}
+
+/*bottom bar style*/
+.bottom-quote {
+    display:block;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.prompt-text {
+    display:block;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 15px;
+}
+
+.prompt-text .step {
+    color:  #F4320F;
+    display: in-line;
+}
+
+.step-left {
+    text-align:left;
+}
+
+/*floating tiles styles */
+.floating-box {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    background-color: white;
+    box-shadow:2px 3px 1px rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.floating-box:hover {
+    box-shadow:3px 3px 2px rgba(0,0,0,0.35),0 2px 10px 0 rgba(0,0,0,0.12);
+    
+}
+
+.description-pillow-text {
+    margin-right:30px; 
+    display:block;
+}
+
+.top-panel {
+    position: relative;
+    top:0px;
+    width: 400px;
+    height:50px;
+    background: #4A4A4A;
+    border-radius: 3px 3px 0 0;
+}
+
+.pillow-pic {
+    display: block;
+    margin: auto;
+    width:60%;
+    padding-top: 15px;
+}
+
+.top-panel .box-heading-left {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    padding-left:10px;
+    margin-top: 0px;
+    padding-top: 5px;
+    display: inline-block;
+}
+
+.top-panel .home-page-heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #4A4A4A;
+    padding-left:10px;
+    margin-top: 0px;
+    padding-top: 5px;
+    display: inline-block;
+    }
+
+.top-panel .box-heading-right {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: #BDBDBD;
+    font-style: light;
+    padding-right:10px;
+    padding-top: 10px;
+    float:right;
+    }
+
+.floating-box-home {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    background-color: transparent;
+    overflow: hidden;
+    display: inline-block;
+    background-color: white;
+    cursor: pointer;
+    border: 10px solid #D0E9F1;
+    
+}
+
+.floating-box-home:hover {
+    border: 10px solid rgb(177, 199, 206);
+    }
+
+#product-info-box-top-panel{
+    width: 400px;
+    background-color: #D0E9F1;
+}
+
+.textarea-top {
+    margin-top: 5px;
+}
+
+
+/* formatting for shape selection on products page */
+.backgroundimage {
+    max-height: 100%; 
+    width: auto;
+}
+
+.shape-choice {
+    list-style-type:none;
+
+}
+
+.shape-choice li {
+    float:left;
+    margin:0 5px 5px 0;
+    width:70px;
+    height:30px;
+    position:relative;
+    text-align: center;
+}
+
+.shape-choice label, .shape-choice input {
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.shape-choice input[type="radio"] {
+    opacity:0.011;
+    z-index:100;
+}
+
+.shape-choice input[type="radio"]:checked + label {
+    background:#F4320F;
+}
+
+.shape-choice label {
+    padding:5px;
+    border:1px solid #CCC; 
+    cursor:pointer;
+    z-index:90;
+}
+
+.shape-choice label:hover {
+    background:#DDD;
+}
+
+.forms {
+display: block;
+float: left;
+}
+
+.cart-div {
+    margin-top: 10px;
+    padding-left: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    color: #4A4A4A;
+    font-size: 16px;
+    text-align:left;
+}
+
+
+/* text area icons */
+.text-box {
+    visibility: hidden;
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+/* product box */
+
+.product-box {
+    display: inline-block;
+    width: 690px;
+    height: 280px;
+    margin: 10px;
+    margin-right: 100px;
+    background-color: #D0E9F1;
+    border-radius: 5px;
+}
+
+.product-box .image {
+    float:left;
+    padding:10px;
+    padding-right:30px;
+    display: inline-block;
+    margin: auto;
+    max-height:260px;
+}
+.product-box .text-area {
+    float:left;
+    padding:10px 10px 10px 0px;
+    display: inline-block;
+    margin: auto;
+}
+
+.product-box .text-area .box-heading-left {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color:#4A4A4A;
+    }
+
+.product-box .text-area .box-heading-right {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: #4A4A4A;
+    font-style:light;
+    padding-left:30px;
+    padding-top:5px;
+    float:right;
+    text-align:right;
+    }
+
